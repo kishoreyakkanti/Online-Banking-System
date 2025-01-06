@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+
+  <link rel="shortcut icon" type="png" href="b2.png" />
+<title>KHH Bank</title>
+  </head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+}
+
+
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+#navbar a {
+  float:left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 22px 26px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar img {
+  float:left;
+}
+#navbar a.active {
+  background-color: #66cc66;
+  color: white;
+}
+
+#navbar a:hover {
+  background-color: #66cc66;
+        transition: 0.5s;
+  color: white;
+}
+
+
+
+.content {
+  padding: 18px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div id="navbar">
+<img src='b3.png' align="right" height=60px width=300px hspace=50px vspace=3px >
+  <a class="active"  href="home.php" target="_self">Home</a>
+  <a href="register.php" target="_self">Sign Up</a>
+  <a href="contact.php" target="_self">Contact Us</a>
+  <a href="aboutus.php"target="_self">About Us</a>
+  <a href="login.php" target="_self" style="float:right;">Login</a>
+
+</div>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

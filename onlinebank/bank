@@ -1,0 +1,19 @@
+insert into bankaccount values(1234567890,'kishore',10000,'male','1998/01/22','kishoreyakkanti@gmail.com','hyderabad','hyderabad',1234567890123456,9100142402,' ',' ');
+
+insert into bankaccount values(1234567891,'harsha',10000,'male','1998/02/11','harsha@gmail.com','hyderabad','hyderabad',1234567890123457,7036863266,' ',' ');
+
+
+insert into bankaccount values(1234567892,'hitesh',10000,'male','1998/04/11','hitesh@gmail.com','hyderabad','hyderabad',1234567890123458,8186917403,' ',' ');
+
+
+
+insert into bankaccount values(1234567893,'karthik',5000,'male','1998/06/09','karthik@gmail.com','mumbai','mumbai',1234567890098765,81870360138,' ',' ');
+
+
+
+insert into bankaccount values(1234567895,'datta',4000,'male','1998/11/26','datta@gmail.com','guntur','guntur',9087654321123456,7989847290,' ',' ');
+
+insert into bankaccount values(1234567894,'abbas',5000,'male','1998/09/09','abbas@gmail.com','chennai','chennai',9876541234567890,8309023763,' ',' ');
+
+
+insert into bankaccount values(1234567897,'james',6000,'male','1998/07/26','james@gmail.com','guntur','guntur',9187654321123456,8106084176,' ',' ');

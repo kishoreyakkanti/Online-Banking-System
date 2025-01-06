@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>Registration</title>
+<link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+
+</head>
+
+
+<style>
+html { 
+  background: url(add3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+   input[type=radio] {
+    border: 0px;
+    width: 20%;
+    height: 2em;
+}
+
+h1{
+font-family: DejaVu Sans Mono, monospace;
+font-size: 36px;
+}
+
+td
+{
+font-family:monospace;
+font-size: 28px;
+}
+
+table{
+background-color: #009933;
+margin:35px 550px;
+ border-collapse:separate;
+    border-radius:9px;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+</style>
+
+<body>
+<img src="b3.png" align=left height="200" width="650" hspace=10px vspace=150px>
+
+<form>
+<table  width=25% cellspacing=1px cellpadding=5px>
+<tr>
+<td colspan=2><center><h1 style="color:#99ff99; font-family: 'Assistant';font-size: 52px;">Register Here</h1></center></td>
+</tr>
+
+<tr>
+<td>AccountNumber:</td>
+
+<td><input type="text" size=20 name="accno"  style="width: 350px;  padding: 9px"></td>
+
+</tr>
+
+<tr>
+<td>AccountName:</td>
+
+<td><input type="text" size=20 name="accname"  style="width: 350px;  padding: 9px"></td>
+
+</tr>
+
+<tr>
+<td>Password:</td>
+
+<td><input type="password" size=20 name="password"  style="width: 350px;  padding: 9px"></td>
+</tr>
+
+
+<tr>
+<td>Mail Id:</td>
+
+<td><input type="text" size=20 name="mail"  style="width: 350px;  padding: 9px"></td>
+</tr>
+
+
+<tr>
+<td>Gender:</td>
+
+<td><input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female</td>
+</tr>
+
+
+<tr>
+<td>DOB:   </td>
+
+<td><input type="date" size=20 name="dob"  style="width: 350px;  padding: 9px"></td>
+</tr>
+
+
+<tr>
+<td>Branch:</td>
+
+<td><input type="text" size=20 name="branch"  style="width: 350px;  padding: 9px"></td>
+</tr>
+
+
+<tr>
+
+<tr>
+<td>PhoneNumber:</td>
+
+<td><input type="text" size=20 name="phone"  style="width: 350px;  padding: 9px"></td>
+</tr>
+
+
+<tr>
+<td>Address:</td>
+
+<td><textarea name="address" style="width:352px; height:90px">
+</textarea></td>
+</tr>
+
+<tr>
+<td>
+<button class="button button1">Register</button>
+</tr>
+</td>
+</table>
+</form>
+</body>
+</html>
